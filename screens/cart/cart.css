@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.price-container {
+  border: 1px solid;
+}
+
+.original-price,
+.delivery-price,
+.discount-price,
+.total-price {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price-heading {
+  text-align: center;
+  font-weight: 700;
+}
+
+.place-order {
+  margin: 0 auto;
+  display: block;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.25rem;
+}
+
+.label {
+  bottom: 1.25rem;
+  left: 1.9rem;
+}
+
+.badge-icon img {
+  width: 2rem;
+  height: 2rem;
+}
