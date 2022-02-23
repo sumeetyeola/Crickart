@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav-heading {
+  border: none;
+  border-bottom: 1px solid var(--footerbackground-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-section {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.home-heading {
+  color: var(--primary-color);
+  margin-left: 2rem;
+}
