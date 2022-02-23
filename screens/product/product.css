@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.filter-wrapper {
+  height: auto;
+  width: 16rem;
+  flex: 0 0 auto;
+  border-right: 1px solid;
+  position: relative;
+}
+
+.filter-heading {
+  display: flex;
+}
+
+.filter-wrapper li {
+  padding-left: 3rem;
+  margin-top: 0.3rem;
+  list-style: none;
+}
+
+.filter-subtitle {
+  margin: 1rem 3rem 1rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.cricket-gear-category,
+.sortedby-category,
+.rating-category {
+  margin-bottom: 1rem;
+}
+
+.clear {
+  padding: 2px;
+  height: 2rem;
+  top: 1rem;
+  right: 2rem;
+  position: absolute;
+}
+
+.main-container {
+  display: flex;
+}
+
+.filter-main-container {
+  display: flex;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.price,
+.image-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.actual-price,
+.image-subtitle {
+  color: var(--primary);
+}
+
+.range-input {
+  text-align: center;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.25rem;
+}
+
+.pl-2 {
+  padding-left: 1.5em;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.label {
+  bottom: 1.25rem;
+  left: 1.9rem;
+}
+
+.badge-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
