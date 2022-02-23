@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.login-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 35%;
+  background-color: var(--signbackground-color);
+  margin: 2rem;
+  text-align: center;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.input-basic {
+  width: 80%;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.25rem;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.label {
+  bottom: 1.25rem;
+  left: 1.9rem;
+}
+
+.badge-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
