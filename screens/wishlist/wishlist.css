@@ -1,0 +1,39 @@
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.25rem;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.label {
+  bottom: 1.25rem;
+  left: 1.9rem;
+}
+
+.badge-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.wishlist-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
